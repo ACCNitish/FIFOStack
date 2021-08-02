@@ -15,7 +15,7 @@ int main() {
     stack.push(3, &a);
     stack.push(4, &a);
     stack.push(5, &a); 
-    
+
     Data* d = new Data;
     stack.printList(); 
     stack.pull(d); 
@@ -96,4 +96,6 @@ int main() {
     //         }
     //     }
     // }
+    
+    return 0;
 }
