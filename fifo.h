@@ -23,9 +23,8 @@ public:
     bool peek(Data*);
     bool isEmpty();
     ~FifoStack();
- 
-    
-    
+    void printList(bool = false);
+
 private:
 
     int top;
@@ -34,7 +33,6 @@ private:
     bool addNode(int, string*);
     void deleteHead(Data*);
     bool clearList();
-    void printList(bool = false);
     void createNode(Node*, Node*, Node*, int, string);
     void printBackwards();
     Node* getLast();
